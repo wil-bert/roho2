@@ -1,9 +1,7 @@
 
 import { Component, ViewChild } from '@angular/core';
 import { MatSidenav } from '@angular/material/sidenav';
-
-
-
+import { NgOptimizedImage } from '@angular/common'
 
 @Component({
   selector: 'app-home',
@@ -14,6 +12,7 @@ import { MatSidenav } from '@angular/material/sidenav';
 export class HomeComponent {
   events: string[] = [];
   open!: boolean;
+longText: any;
 }
 
 

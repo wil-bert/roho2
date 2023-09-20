@@ -1,3 +1,8 @@
+.home{
+ 
+  height: 100%;
+  page-break-inside: auto;
+}
 .example-container {
   position: absolute;
   top: 0;
@@ -25,13 +30,15 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  width: auto;
+  height: auto;
 }
 li{
   float: left;
 }
 
 li a {
-  display: block;
+  display: flex;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -45,4 +52,36 @@ li a:hover {
 
 h1{
   font-size: 35px;
+}
+
+footer{
+  display: flex;
+  align-self: baseline;
+  justify-content: baseline;
+  float: inline-end;
+  color: white;
+  margin-bottom: 3px;
+  background-color: black;
+  height: 10vh;
+}
+.waw{
+  height: 100vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #333;
+  color: white;
+}
+.example-card {
+  max-width: 400px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+p{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }
