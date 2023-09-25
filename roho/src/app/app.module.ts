@@ -21,11 +21,17 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { MatPseudoCheckboxModule } from '@angular/material/core';
+import { ActivitiesComponent } from './activities/activities.component';
+import { ContactComponent } from './contact/contact.component';
+import { DonateComponent } from './donate/donate.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ActivitiesComponent,
+    ContactComponent,
+    DonateComponent
   ],
   imports: [
     BrowserModule,
